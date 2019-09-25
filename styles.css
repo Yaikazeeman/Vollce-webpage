@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p{
+    text-align: center;
+}
+
+/* .break{
+    margin: 0;
+    padding: 20% 0;
+} */
+
+section{
+    margin: 5%;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    background-image: url(./images/achtergrond-Faded-V2.png);
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    margin: 0;
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    padding-top: 3%;
+    margin: 3%;
+}
+
+nav ul li a {
+    color: black;
+}
+nav ul li:hover{
+    transform: scale(1.1); 
+}
+
+nav ul li a:hover{
+    color: rgb(209, 115, 39);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.background {
+    height: 40vh;
+}
+
+.background img{
+    width: 100%;
+}
+
+#header h1{
+    margin: 60vh auto 50%;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.line{
+    margin: 0 auto;
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: rgb(209, 115, 39);
+    border-radius: 25%;
+}
+
+.text-container{
+    margin: 0;
+}
+
+#solution{
+    margin: 0;
+}
+
+#solution p{
+    width: 90%;
+    padding: 4% 3% 4% 15%;
+    text-align: left;
+}
+
+.kpi-icons{
+    width: 80vw;
+    margin: 0 auto 0 20%;
+}
+
+.kpi-icons img{
+    margin: 3% auto;
+    width: 90%;
+}
+
+#about{
+    margin: 0;
+}
+
+.about-text-3{
+    width: 90%;
+    padding: 4% 3% 4% 15%;
+    text-align: left;
+}
+
+.mobile-carter{
+    margin: 0;
+    width: 100vw;
+}
+
+.mobile-carter img{
+    margin: 0;
+    width: 100vw;
+}
+
+.desktop-carter{
+    margin: 0;
+    display: none;
+}
+
+.support-text{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%;
+}
+
+#support{
+    margin: 0;
+}
+
+.support-div{
+    margin: 0;
+}
+
+#contact h3{
+    text-align: center;
+}
+
+.contact-div{
+    flex-wrap: wrap;
+}
+
+.contact-div div{
+    width: 40%;
+    margin: 4%;
+}
+
+.contact-div div img{
+    margin: 5%;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.contact-div h3, .contact-div h4, .contact-div p{
+    text-align: center;
+}
+
+.email, .nummer{
+    font-size: 0.9em;
+}
+
+.tandwiel-div{
+    width: 100vw;
+    margin: 0;
+    padding:0;
+}
+
+.tandwiel{
+    width: 80vw;
+    margin: 0 0 -5px 0;
+}
+
+footer{
+    margin: 0;
+    padding: 5px;
+    width: 100vw;
+    color: white;
+    background-color: black;
+}
+
+footer p{
+    font-size: 0.7em;
+    width: 90%;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    h3{
+        font-size: 2em;
+        margin: auto auto 3% auto;
+    }
+
+    nav ul li{
+        list-style: none;
+        padding-top: 1%;
+        margin: 1% 3%;
+    }
+
+    body{   
+        background-image: url(./images/bg-desktop.png);
+        background-size: 100% auto;
+    }
+
+    #header h1{
+        margin: 40vh 0 40vh 40vw;
+        font-size: 3em;
+    }
+
+    .text-container{
+        margin: 0 5% 0 10%;
+    }
+    
+    #solution{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #solution p{
+        padding: 0;
+    }
+
+    .kpi-icons{
+        width: 50vw;
+        margin: 10% auto 3%;
+    }
+
+    .kpi-icons img{
+        margin: 3% auto;
+    }
+
+    #about{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #about p{
+        padding: 0;
+    }
+
+    #about img{
+        width: 50vw;
+        margin: 0;
+    }
+
+    .mobile-carter{
+        display: none;
+    }
+
+    .desktop-carter{
+        display: flex;
+    }
+
+    .desktop-carter img{
+        width: 50vw;
+    }
+
+    .support-text-div{
+        margin: 20% 4% 4% 4%;
+    }
+
+    .contact-div{
+        align-content: center;
+    }
+
+    .contact-div div{
+        width: 15%;
+        margin: 5%;
+    }
+
+    .contact-div div h3{
+        font-size: 1.3em;
+    }
+
+    .tandwiel{
+        width: 40vw;
+        margin: 0 0 -5px 0;
+    }
+
+    footer p{
+        font-size: 1em;
+    }
+    
+}
