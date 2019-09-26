@@ -15,8 +15,16 @@ h1, h2, h3, p{
     padding: 20% 0;
 } */
 
+.break{
+    height: 60px;
+}
+
+.break-header{
+    height: 100px;
+}
+
 section{
-    margin: 5%;
+    margin: 0 5%;
 }
 
 body{
@@ -73,8 +81,13 @@ nav ul li a{
     width: 100%;
 }
 
+#header{
+    position: relative;
+    top:0;
+}
+
 #header h1{
-    margin: 60vh auto 50%;
+    margin: 35vh auto 50%;
     color: white;
 }
 
@@ -214,6 +227,10 @@ footer p{
         margin: auto auto 3% auto;
     }
 
+    nav{
+        z-index: 10;
+    }
+
     nav ul li{
         list-style: none;
         padding-top: 1%;
@@ -225,8 +242,12 @@ footer p{
         background-size: 100% auto;
     }
 
+    #header{
+        margin-top: -50px;
+    }
+
     #header h1{
-        margin: 40vh 0 40vh 40vw;
+        margin: 10vh 0 40vh 40vw;
         font-size: 3em;
     }
 
